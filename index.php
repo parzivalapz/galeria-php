@@ -11,10 +11,11 @@
 
 <body>
     <header>
-        <h1 class="titulo">Galería</h1>
+        <h1 class="titulo">No se que es esto </h1>
     </header>
     <div class="contenedor">
         <section>
+                    <h2>Donde estoy </h2> 
         <?php
 include("con.php");
 $SQL ="SELECT * FROM publicaciones ORDER BY RAND()";
